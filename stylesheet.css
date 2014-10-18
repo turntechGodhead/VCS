@@ -1,0 +1,27 @@
+body{
+    background-color: #2e2e2e;
+}
+
+/* Div Tags */
+
+#centerbox{
+    background-color: #FFFFFF;
+    width: 120px;
+    height: 20px;
+    display:inline-box;
+    border-bottom-style: ridge;
+    border-radius: 5px;
+    border-color: #CFCFCF;
+    text-decoration:none;
+}
+
+#centerbox:hover{
+    background-color: #27ff09;
+    width: 120px;
+    height: 20px;
+    display:inline-box;
+    border-bottom-style: ridge;
+    border-radius: 5px;
+    border-color: #4fd263;
+    text-decoration:none;
+}
