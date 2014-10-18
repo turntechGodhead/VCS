@@ -4,24 +4,29 @@ body{
 
 /* Div Tags */
 
-#centerbox{
+#sideBar {
     background-color: #FFFFFF;
     width: 120px;
-    height: 20px;
-    display:inline-box;
+    min-height: 40px;
     border-bottom-style: ridge;
     border-radius: 5px;
     border-color: #CFCFCF;
-    text-decoration:none;
+    text-decoration: none;
+    text-align: center;
+    margin-top:10px;
 }
 
-#centerbox:hover{
-    background-color: #27ff09;
-    width: 120px;
-    height: 20px;
-    display:inline-box;
+#titleBar {
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 30px;
     border-bottom-style: ridge;
     border-radius: 5px;
-    border-color: #4fd263;
-    text-decoration:none;
+    border-color: #CFCFCF;
+}
+
+/* Span Tags */
+
+#menuHead{
+    font-size:10px;
 }
